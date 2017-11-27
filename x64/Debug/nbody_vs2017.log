@@ -1,0 +1,9 @@
+﻿  Compiling CUDA source file bodysystemcuda.cu...
+  
+  F:\OpCr_nbody>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_35,code=\"sm_35,compute_35\" -gencode=arch=compute_37,code=\"sm_37,compute_37\" -gencode=arch=compute_50,code=\"sm_50,compute_50\" -gencode=arch=compute_52,code=\"sm_52,compute_52\" -gencode=arch=compute_60,code=\"sm_60,compute_60\" -gencode=arch=compute_70,code=\"sm_70,compute_70\" --use-local-env --cl-version 2017 -ccbin "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x64" -x cu  -I./ -I./common/inc -I./ -ID:\NVIDIA\CUDA\/include -I./common/inc -ID:\NVIDIA\CUDA\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler "/wd 4819" -g   -DWIN32 -DWIN32 -D_MBCS -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MTd " -o x64/Debug/bodysystemcuda.cu.obj "F:\OpCr_nbody\bodysystemcuda.cu" 
+  bodysystemcuda.cu
+  render_particles.cpp
+  nbody.cpp
+  正在生成代码...
+    正在创建库 ./bin/win64/Debug/nbody.lib 和对象 ./bin/win64/Debug/nbody.exp
+  nbody_vs2017.vcxproj -> F:\OpCr_nbody\./bin/win64/Debug/nbody.exe

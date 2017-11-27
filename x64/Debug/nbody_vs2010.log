@@ -1,0 +1,5 @@
+﻿  render_particles.cpp
+  nbody.cpp
+  正在生成代码...
+    正在创建库 ../../bin/win64/Debug/nbody.lib 和对象 ../../bin/win64/Debug/nbody.exp
+  nbody_vs2010.vcxproj -> D:\NVIDIA\CUDA Samples\5_Simulations\nbody\../../bin/win64/Debug/nbody.exe
